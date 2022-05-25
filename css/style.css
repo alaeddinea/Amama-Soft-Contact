@@ -69,4 +69,23 @@ form .footer-form button{
     background-color: #228b22;
     color: white;
     font-size: 15px;
+    border: none;
+    padding:10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s ;
+}
+form .footer-form button:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width:920px){
+    form .body-form .right{
+        margin-left: 0; 
+        
+      }
+     
+    form .body-form .right .group textarea{
+       width: 100%;
+      }
 }
